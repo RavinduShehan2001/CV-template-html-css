@@ -1,0 +1,176 @@
+/* div{
+    border: 1px solid black;
+} */
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    width: 100%;
+}
+
+.sec_1{
+    width:30%;
+    float: left;
+    padding:10px;
+}
+
+.card_1{
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+.sec_2{
+    width:70%;
+    float:left;
+    padding: 4px 10px 10px 10px;
+}
+
+.card_2{
+    box-shadow: 2px 5px 10px gray;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.637);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin:0 auto;
+}
+
+.container img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 15px 15px 0 0;
+    vertical-align: middle;
+}
+
+.name{
+    position: absolute;
+    width: 100%;
+    padding: 0 0 0 30px;
+    bottom: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+i{
+    padding-right: 15px;
+    color:rgb(253, 79, 16);
+}
+
+.info{
+    padding:15px;
+}
+
+.con_bar{
+    width:100%;
+    background-color: #ddd;
+    border-radius: 0 15px 15px 0;
+}
+
+.skill{
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    font-size: 10pt;
+}
+
+.skill1, .lang{
+    padding:0 15px 15px 15px;
+}
+
+.database{
+    width: 75%;
+    background-color: coral;
+}
+.web{
+    width: 80%;
+    background-color: coral;
+}
+.desktop{
+    width: 90%;
+    background-color: coral;
+}
+.mobile{
+    width: 50%;
+    background-color: coral;
+}
+.english{
+    width:60%;
+    background-color: coral;
+}
+.sinhala{
+    width:100%;
+    background-color: coral;
+}
+
+hr{
+    width:90%;
+    color: gray;
+}
+
+.top_1 div,.top_2 div,.top_3 div{
+    padding: 0  0  0 10px;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 22pt;
+}
+
+h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body{
+    background-image: url(18410.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.main{
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+}
+
+.currunt{
+    border: 1px solid coral;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+}
+
+.row:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.footer{
+    background-color: coral;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer i{
+    color: white;
+}
